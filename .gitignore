@@ -16,6 +16,9 @@ build/
 .idea/
 *.swp
 
+# Claude Code local config
+.claude/
+
 # Environment
 venv/
 env/
@@ -27,3 +30,6 @@ Thumbs.db
 
 # Notebooks
 .ipynb_checkpoints/
+
+# Raw survey responses (contains free-text)
+*(Responses).xlsx
